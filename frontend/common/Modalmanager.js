@@ -1,7 +1,7 @@
 "use client"
 import React, { useReducer, useState } from 'react';
 import Image from "next/image";
-import Header from '@/app/components/Header';
+import Header from '../components/Header';
 import { useDispatch, useSelector } from 'react-redux';
 import ModalComponent from '@/app/components/Modal';
 import { toggleModal } from '../redux/slice';

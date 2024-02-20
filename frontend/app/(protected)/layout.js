@@ -1,4 +1,4 @@
-import Header from '@/app/components/Header';
+import Header from '../components/Header';
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 

@@ -1,9 +1,9 @@
 "use client"
 import React, { useState } from "react";
-import { closeModal, openModal, toggleModal } from "@/redux/slice";
+import { closeModal, openModal, toggleModal } from "../../redux/slice";
 import { useDispatch } from "react-redux";
 import Link from "next/link";
-import { postRequest } from "@/utils/api";
+import { postRequest } from "../../utils/api";
 import { useRouter } from "next/navigation";
 
 export default function Header({ isLoggedIn }) {

@@ -1,6 +1,5 @@
 "use client"
-import { toggleModal } from "@/redux/slice";
-import { postRequest } from "@/utils/api";
+import { postRequest } from "../../utils/api";
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 

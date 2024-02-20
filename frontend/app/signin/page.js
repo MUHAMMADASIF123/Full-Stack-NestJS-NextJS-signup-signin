@@ -1,9 +1,8 @@
 "use client"
 import React, { useState } from "react";
-import { postRequest } from "@/utils/api";
+import { postRequest } from "../../utils/api";
 import { useDispatch } from "react-redux";
 import { useRouter } from 'next/navigation';
-import { toggleModal } from "@/redux/slice";
 
 export default function SignIn() {
   const dispatch = useDispatch();

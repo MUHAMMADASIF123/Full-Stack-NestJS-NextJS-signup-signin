@@ -4,8 +4,7 @@ import { Providers } from "../redux/providers";
 import { stores } from "../redux/store";
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation';
-import Sidebar from '@/app/components/Sidebar';
-import Header from '@/app/components/Header';
+import Header from '../app/components/Header';
 
 
 export const metadata = {
