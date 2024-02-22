@@ -1,4 +1,4 @@
-const baseURL = process.env.BASE_URL || 'http://localhost:4000';
+const baseURL = process.env.BASE_URL || 'http://localhost:3000';
 
 export const postRequest = async (endpoint, data) => {
   try {

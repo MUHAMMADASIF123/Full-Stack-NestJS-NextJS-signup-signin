@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-// import { postRequest } from "../../utils/api";
+import { postRequest } from '../../services/utils';
 import { useDispatch } from "react-redux";
 import { useRouter } from 'next/navigation';
 
@@ -16,7 +16,7 @@ export default function SignIn() {
     e.preventDefault();
     console.log('Form submitted:', formData);
 
-    const response = await postRequest('auth/login', formData);
+    const response = await postRequest('v1/login', formData);
 
     if (response.statusCode == 200) {
       console.log('LOGED IN');

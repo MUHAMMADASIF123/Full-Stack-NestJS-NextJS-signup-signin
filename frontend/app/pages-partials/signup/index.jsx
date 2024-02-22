@@ -1,7 +1,8 @@
 "use client"
-// import { postRequest } from "../../utils/api";
+import { postRequest } from '../../services/utils';
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
+import {toggleModal} from "../../../redux/slice"
 
 export default function Signup() {
   const dispatch = useDispatch();
