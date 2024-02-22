@@ -1,5 +1,5 @@
 import Link from "next/link";
-// import { getData } from "../../utils/api";
+import { getData } from "../../utils/api";
 import { cookies } from 'next/headers';
 
 export default async function Profile() {

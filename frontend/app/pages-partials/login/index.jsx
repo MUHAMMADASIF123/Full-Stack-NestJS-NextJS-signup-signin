@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import { postRequest } from "../../utils/api";
+// import { postRequest } from "../../utils/api";
 import { useDispatch } from "react-redux";
 import { useRouter } from 'next/navigation';
 

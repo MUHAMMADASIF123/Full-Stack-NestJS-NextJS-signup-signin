@@ -1,6 +1,6 @@
 import React from "react";
-import Signup from "../pages-partials/signup";
+import About from "../pages-partials/about";
 
 export default function LoginPage() {
-  return <Signup />;
+  return <About />;
 }

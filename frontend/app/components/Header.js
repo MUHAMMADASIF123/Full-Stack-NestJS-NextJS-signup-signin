@@ -48,11 +48,11 @@ export default function Header({ isLoggedIn }) {
                     <span className="text-white font-bold">About</span>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/profile">
                     <span className="text-white font-bold">Profile</span>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
